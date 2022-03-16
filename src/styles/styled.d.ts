@@ -1,21 +1,21 @@
-import 'styled-components'
+import "styled-components";
 
-declare module 'styled-components' {
+declare module "styled-components" {
 	export interface DefaultTheme {
 		colors: {
-			limeGreen: string
-			brightRed: string
-			facebook: string
-			twitter: string
-			instagram: string
-			youtube: string
+			limeGreen: string;
+			brightRed: string;
+			facebook: string;
+			twitter: string;
+			instagram: string;
+			youtube: string;
 
-			toggle: string
-			background: string
-			topBackground: string
-			cardBackground: string
-			text: string
-			title: string
-		}
+			toggle: string;
+			background: string;
+			topBackground: string;
+			cardBackground: string;
+			text: string;
+			title: string;
+		};
 	}
 }

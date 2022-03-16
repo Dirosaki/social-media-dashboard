@@ -1,31 +1,32 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { ThemeProvider } from 'styled-components'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import useLocalStorage from './hooks/useLocalStorage'
+import { ThemeProvider } from "styled-components";
 
-import Home from './pages/Home'
+import useLocalStorage from "hooks/useLocalStorage";
 
-import GlobalStyle from './styles/global'
-import dark from './styles/themes/dark'
-import light from './styles/themes/light'
+import Home from "pages/Home";
+
+import GlobalStyle from "styles/global";
+import dark from "styles/themes/dark";
+import light from "styles/themes/light";
 
 function MainRoutes() {
-	const [theme, setTheme] = useLocalStorage('darkTheme', true)
+	const [theme, setTheme] = useLocalStorage("darkTheme", true);
 
 	const handleToggleTheme = () => {
-		setTheme((prevState) => !prevState)
-	}
+		setTheme((prevState) => !prevState);
+	};
 
 	return (
 		<ThemeProvider theme={theme ? dark : light}>
 			<GlobalStyle />
 			<BrowserRouter>
 				<Routes>
-					<Route path='/' element={<Home toggleTheme={handleToggleTheme} />} />
+					<Route path="/" element={<Home toggleTheme={handleToggleTheme} />} />
 				</Routes>
 			</BrowserRouter>
 		</ThemeProvider>
-	)
+	);
 }
 
-export default MainRoutes
+export default MainRoutes;
