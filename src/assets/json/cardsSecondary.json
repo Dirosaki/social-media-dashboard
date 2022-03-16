@@ -1,0 +1,50 @@
+[
+	{
+		"social": "facebook",
+		"title": "Page Views",
+		"count": 87,
+		"increasing": 0.03
+	},
+	{
+		"social": "facebook",
+		"title": "Likes",
+		"count": 52,
+		"increasing": -0.02
+	},
+	{
+		"social": "instagram",
+		"title": "Likes",
+		"count": 5462,
+		"increasing": 22.57
+	},
+	{
+		"social": "instagram",
+		"title": "Page Views",
+		"count": 52694,
+		"increasing": 13.75
+	},
+	{
+		"social": "twitter",
+		"title": "Retweets",
+		"count": 117,
+		"increasing": 3.03
+	},
+	{
+		"social": "twitter",
+		"title": "Likes",
+		"count": 507,
+		"increasing": 5.53
+	},
+	{
+		"social": "youtube",
+		"title": "Likes",
+		"count": 107,
+		"increasing": -0.19
+	},
+	{
+		"social": "youtube",
+		"title": "Total Views",
+		"count": 1407,
+		"increasing": -0.12
+	}
+]
