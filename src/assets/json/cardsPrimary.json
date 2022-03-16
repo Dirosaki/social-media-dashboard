@@ -1,0 +1,26 @@
+[
+	{
+		"social": "facebook",
+		"atSign": "@nathanf",
+		"followers": 1987,
+		"followersToday": 12
+	},
+	{
+		"social": "twitter",
+		"atSign": "@nathanf",
+		"followers": 1044,
+		"followersToday": 99
+	},
+	{
+		"social": "instagram",
+		"atSign": "@realnathanf",
+		"followers": 11675,
+		"followersToday": 12
+	},
+	{
+		"social": "youtube",
+		"atSign": "Nathan F.",
+		"followers": 8239,
+		"followersToday": -144
+	}
+]
