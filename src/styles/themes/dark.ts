@@ -1,6 +1,7 @@
 import { DefaultTheme } from "styled-components";
 
 const dark: DefaultTheme = {
+	title: "dark",
 	colors: {
 		limeGreen: "#1DB489",
 		brightRed: "#DC414C",

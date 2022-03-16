@@ -10,6 +10,7 @@ ${({ theme }) => css`
 	}
 
 	body {
+		min-height: 100vh;
 		background: ${theme.colors.background};
 		font-size: 1rem;
 		color: ${theme.colors.title};

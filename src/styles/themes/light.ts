@@ -1,6 +1,7 @@
 import { DefaultTheme } from "styled-components";
 
 const light: DefaultTheme = {
+	title: "light",
 	colors: {
 		limeGreen: "#1DB489",
 		brightRed: "#DC414C",
